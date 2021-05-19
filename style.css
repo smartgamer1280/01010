@@ -1,7 +1,7 @@
 header{
     background-color: rgba(17, 221, 204, 0.884);
     width:100%;
-    height:10rem;
+    height:6rem;
 }
 
 header ul li a{
@@ -9,19 +9,32 @@ header ul li a{
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: bold;
-    padding:2rem;
-    
+
+    padding:10px;
+
 }
 
 li{
 
     display: inline;
 
+
 }
 *{
     padding: 0;margin: 0;
 }
 ul{
-    padding-top: 3rem;
-    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-left:5rem;
+    
+    
+    
+}
+.content{
+    margin:5rem;
+    padding: 1rem;
+    background-color: rgb(2, 100, 107);
+    border-radius:10px;
+    border:solid transparent;
+    
 }

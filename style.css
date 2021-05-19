@@ -1,11 +1,27 @@
 header{
-    background-color: aqua;
+    background-color: rgba(17, 221, 204, 0.884);
     width:100%;
-    height:50px;
+    height:10rem;
 }
 
 header ul li a{
-    color: wheat;
+    color: rgb(163, 158, 149);
     text-decoration: none;
-    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    padding:2rem;
+    
+}
+
+li{
+
+    display: inline;
+
+}
+*{
+    padding: 0;margin: 0;
+}
+ul{
+    padding-top: 3rem;
+    padding-left: 5rem;
 }

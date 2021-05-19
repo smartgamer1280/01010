@@ -2,6 +2,7 @@ header{
     background-color: rgba(17, 221, 204, 0.884);
     width:100%;
     height:6rem;
+   
 }
 
 header ul li a{
@@ -34,10 +35,17 @@ ul{
 .content{
     margin:5rem;
     padding: 1rem;
+    padding-left: 1rem;
     background-color: rgb(2, 100, 107);
     border-radius:10px;
     border:solid transparent;
     color: yellow;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
+}
+footer{
+    background-color: teal;
+    position: fixed;
+    bottom: 0px;
+
 }

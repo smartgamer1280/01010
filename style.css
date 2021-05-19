@@ -25,7 +25,8 @@ li{
 }
 ul{
     padding-top: 2rem;
-    padding-left:5rem;
+    padding-left:3rem;
+    padding-right:3rem;
     
     
     
@@ -36,5 +37,7 @@ ul{
     background-color: rgb(2, 100, 107);
     border-radius:10px;
     border:solid transparent;
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }

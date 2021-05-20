@@ -66,3 +66,7 @@ footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 2rem;
 }
+body{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(240, 72, 142) , rgb(255, 94, 1));
+}

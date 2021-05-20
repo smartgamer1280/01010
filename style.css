@@ -1,18 +1,28 @@
 header{
-    background-color: rgba(17, 221, 204, 0.884);
+    background-color: rgba(155, 174, 236, 0.959);
     width:100%;
     height:6rem;
+
    
+}
+header circle{
+    border-radius: 50%;
+    background-color: rgb(50, 50, 231);
 }
 
 header ul li a{
-    color: rgb(163, 158, 149);
+    color: rgb(8, 31, 6);
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: bold;
 
-    padding:10px;
+    padding:3px;
 
+}
+#ci{
+    background-color: rgb(255, 8, 0);
+    height: 50px;
+    width: 60px;
 }
 
 li{
@@ -28,25 +38,31 @@ ul{
     padding-top: 2rem;
     padding-left:3rem;
     padding-right:3rem;
+    padding-bottom: 2rem;
     
     
     
 }
 .content{
+    height: 80%;
     margin:5rem;
     padding: 1rem;
     padding-left: 1rem;
-    background-color: rgb(2, 100, 107);
-    border-radius:10px;
+    background-color: rgb(231, 217, 17);
+    border-radius:1rem;
     border:solid transparent;
-    color: yellow;
+    color: rgb(4, 21, 41);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
 }
 footer{
-    background-color: teal;
-    position: fixed;
+    background-color: rgb(34, 247, 14);
+    position:absolute;
     bottom: 0px;
     width: 100%;
-
+    height: 5rem;
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 2rem;
 }

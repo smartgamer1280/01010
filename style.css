@@ -67,3 +67,14 @@ body{
     background-repeat: no-repeat;
     background-image: linear-gradient(rgb(240, 72, 142) , rgb(255, 94, 1));
 }
+html.loading {
+    height: 100%;
+    background-image: url('http://i.imgur.com/HEAhF9v.gif'); /* Animated loading spinner image */
+    background-position: center center;
+    background-repeat: no-repeat
+}
+html.loading body {
+    visibility: hidden;
+    height: 100%;
+    overflow: hidden;
+}

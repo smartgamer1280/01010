@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+
+</head>
+<body>
+    
+    <style>
+        .cont{
+            background-color: rgb(167, 82, 82);
+            height: 50px;
+            width: 100%;
+            border-radius: 10px;
+            animation-name: har;
+            animation-duration: 100s;
+            animation-iteration-count: infinite;
+            position: relative;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: xx-large;
+            text-align: center;
+            /* three important things for every animation = 
+            animation name and animation duratoin and animation repeat
+            then animation timing function ease in ease out etcc.
+            */
+
+
+
+
+
+
+
+        }
+        @keyframes har /* <= name of animation */ {
+            from{
+
+                /*
+                Property of element change hogi from here 
+                these are initial conditions
+                */
+                height: 50px;
+                border-radius: 10px;
+                background-color: rgb(209, 166, 166);
+            }
+            to{
+                background-color: rgb(161, 236, 20);
+                /*
+                final conditions
+              like border radius 
+              position change from to to bottom etc
+                */
+                
+                
+            }
+
+        }
+        .cont:hover{
+            height: 200px;
+        }
+    </style>
+    <div class="cont" >Hi Guys</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
